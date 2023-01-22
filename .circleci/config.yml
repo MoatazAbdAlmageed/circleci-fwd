@@ -38,4 +38,4 @@ workflows:
       - say-hello
       - say-moataz:
           requires:
-            - print_hello
+            - say_hello
